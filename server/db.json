@@ -1,0 +1,848 @@
+{
+  "Foods": [
+    {
+      "id": "1",
+      "name": "Gà rán sét",
+      "price": 87,
+      "oldPrice": 114,
+      "image": "../src/assets/chickenset_fried_1.png",
+      "category": "BestSeller"
+    },
+    {
+      "id": "2",
+      "name": "Gà rán HS phần",
+      "price": 95,
+      "oldPrice": 124,
+      "image": "../src/assets/chickenset_h_s_1.png",
+      "category": "BestSeller"
+    },
+    {
+      "id": "3",
+      "name": "Combo Burger Tôm",
+      "price": 82,
+      "oldPrice": 91,
+      "image": "../src/assets/combo_shrimp_6.png",
+      "category": "BestSeller"
+    },
+    {
+      "id": "4",
+      "name": "Combo Burger Bulgogi",
+      "price": 82,
+      "oldPrice": 91,
+      "image": "../src/assets/combo_bulgogi_6.png",
+      "category": "BestSeller"
+    },
+    {
+      "id": "5",
+      "name": "Loy set",
+      "price": 145,
+      "oldPrice": 177,
+      "image": "../src/assets/pack_loy_set_2.png",
+      "category": "BestSeller",
+      "subCategory": "set"
+    },
+    {
+      "id": "6",
+      "name": "Lody set",
+      "price": 145,
+      "oldPrice": 169,
+      "image": "../src/assets/pack_lody_set_4.png",
+      "category": "BestSeller",
+      "subCategory": "set"
+    },
+    {
+      "id": "7",
+      "name": "Lony set",
+      "price": 195,
+      "oldPrice": 237,
+      "image": "../src/assets/pack_lony_set_2.png",
+      "category": "BestSeller",
+      "subCategory": "set"
+    },
+    {
+      "id": "8",
+      "name": "Loking set",
+      "price": 220,
+      "oldPrice": 237,
+      "image": "../src/assets/pack_loking_set_2.png",
+      "category": "BestSeller",
+      "subCategory": "set"
+    },
+    {
+      "id": "9",
+      "name": "L4 Set",
+      "price": 280,
+      "oldPrice": 337,
+      "image": "../src/assets/pack_lody_set_4.png",
+      "category": "BestSeller",
+      "subCategory": "set"
+    },
+    {
+      "id": "10",
+      "name": "Milkis",
+      "price": 22,
+      "oldPrice": 25,
+      "image": "../src/assets/drink_milkis.png",
+      "category": "drink"
+    },
+    {
+      "id": "11",
+      "name": "Matcha Latte",
+      "price": 30,
+      "oldPrice": 35,
+      "image": "../src/assets/l_coffee_matcha.png",
+      "category": "drink"
+    },
+    {
+      "id": "12",
+      "name": "Pepsi",
+      "price": 1,
+      "oldPrice": 19,
+      "image": "../src/assets/drink_pepsi.png",
+      "category": "drink"
+    },
+    {
+      "id": "13",
+      "name": "Pepsi Zero",
+      "price": 14,
+      "oldPrice": 19,
+      "image": "../src/assets/drink_pepsi_zero.png",
+      "category": "drink"
+    },
+    {
+      "id": "14",
+      "name": "7 Up",
+      "price": 14,
+      "oldPrice": 20,
+      "image": "../src/assets/drink_7up_m_l.png",
+      "category": "drink"
+    },
+    {
+      "id": "15",
+      "name": "Mirinda",
+      "price": 14,
+      "oldPrice": 20,
+      "image": "../src/assets/drink_mirinda.png",
+      "category": "drink"
+    },
+    {
+      "id": "16",
+      "name": "Trà sữa trân châu caramel",
+      "price": 30,
+      "oldPrice": 35,
+      "image": "../src/assets/l_coffee_caramel_pearls.png",
+      "category": "drink"
+    },
+    {
+      "id": "17",
+      "name": "Trà Kiwi chanh dây",
+      "price": 35,
+      "oldPrice": 40,
+      "image": "../src/assets/l_coffee_tra_kiwwi_chanh.png",
+      "category": "drink"
+    },
+    {
+      "id": "18",
+      "name": "Trà vải",
+      "price": 35,
+      "oldPrice": 40,
+      "image": "../src/assets/drink_vai.png",
+      "category": "drink"
+    },
+    {
+      "id": "19",
+      "name": "Trà dâu",
+      "price": 35,
+      "oldPrice": 40,
+      "image": "../src/assets/drink_dau.png",
+      "category": "drink"
+    },
+    {
+      "id": "20",
+      "name": "Combo 1",
+      "price": 59,
+      "oldPrice": 78,
+      "image": "../src/assets/menu_menu_1_2_.jpg",
+      "category": "discount"
+    },
+    {
+      "id": "21",
+      "name": "Combo 2",
+      "price": 129,
+      "oldPrice": 170,
+      "image": "../src/assets/combo_2.jpg",
+      "category": "discount"
+    },
+    {
+      "id": "22",
+      "name": "Deal 58k",
+      "price": 58,
+      "oldPrice": 89,
+      "image": "../src/assets/menu_menu_58kkk_1_.jpg",
+      "category": "discount"
+    },
+    {
+      "id": "26",
+      "name": "Cơm Gà Viên",
+      "price": 46,
+      "oldPrice": 55,
+      "image": "../src/assets/lr0002_online_5.png",
+      "category": "rice"
+    },
+    {
+      "id": "27",
+      "name": "Cơm Gà Sốt Đậu",
+      "price": 46,
+      "oldPrice": 55,
+      "image": "../src/assets/lr0007_online_5.png",
+      "category": "rice"
+    },
+    {
+      "id": "28",
+      "name": "Cơm Gà Sốt HS",
+      "price": 46,
+      "oldPrice": 55,
+      "image": "../src/assets/lr0087_online_5.png",
+      "category": "rice"
+    },
+    {
+      "id": "29",
+      "name": "Value Burger Bulgogi",
+      "price": 88,
+      "oldPrice": 99,
+      "image": "../src/assets/value_bulgogi_4.png",
+      "category": "value"
+    },
+    {
+      "id": "30",
+      "name": "Value Burger Tôm",
+      "price": 88,
+      "oldPrice": 99,
+      "image": "../src/assets/value_shrimp_4.png",
+      "category": "value"
+    },
+    {
+      "id": "31",
+      "name": "Value Burger LChicken",
+      "price": 89,
+      "oldPrice": 102,
+      "image": "../src/assets/value_l_chicken.png",
+      "category": "value"
+    },
+    {
+      "id": "32",
+      "name": "Value Burger Phô mai",
+      "price": 81,
+      "oldPrice": 97,
+      "image": "../src/assets/value_cheese_4.png",
+      "category": "value"
+    },
+    {
+      "id": "33",
+      "name": "Combo Burger Bulgogi",
+      "price": 82,
+      "oldPrice": 91,
+      "image": "../src/assets/combo_bulgogi_6.png",
+      "category": "combo"
+    },
+    {
+      "id": "34",
+      "name": "Combo Burger Tôm",
+      "price": 82,
+      "oldPrice": 91,
+      "image": "../src/assets/combo_shrimp_6.png",
+      "category": "combo"
+    },
+    {
+      "id": "35",
+      "name": "Gà Sốt K-Chicken Phần",
+      "price": 95,
+      "oldPrice": 124,
+      "image": "../src/assets/chickenset_k_chicken_1.png",
+      "category": "chickenSet"
+    },
+    {
+      "id": "36",
+      "name": "Gà Rắc Tuyết Xanh Set",
+      "price": 89,
+      "oldPrice": 118,
+      "image": "../src/assets/chickenset_sprinkle.png",
+      "category": "chickenSet"
+    },
+    {
+      "id": "37",
+      "name": "Gà Rán Phần",
+      "price": 87,
+      "oldPrice": 114,
+      "image": "../src/assets/chickenset_fried_1.png",
+      "category": "chickenSet"
+    },
+    {
+      "id": "38",
+      "name": "Gà rán HS phần",
+      "price": 95,
+      "oldPrice": 124,
+      "image": "../src/assets/chickenset_h_s_1.png",
+      "category": "chickenSet"
+    },
+    {
+      "id": "39",
+      "name": "Gà Rắc Tuyết Xanh (1 Miếng)",
+      "price": 38,
+      "oldPrice": 45,
+      "image": "../src/assets/chicken_sprinkle_chicken_1_mie_ng_1.png",
+      "category": "chicken"
+    },
+    {
+      "id": "40",
+      "name": "Gà Rắc Tuyết Xanh (3 Miếng)",
+      "price": 105,
+      "oldPrice": 114,
+      "image": "../src/assets/chicken_sprinkle_chicken_1_mie_ng_1.png",
+      "category": "chicken"
+    },
+    {
+      "id": "41",
+      "name": "Gà Rắc Tuyết Xanh (6 Miếng)",
+      "price": 202,
+      "oldPrice": 228,
+      "image": "../src/assets/chicken_sprinkle_chicken_1_mie_ng_1.png",
+      "category": "chicken"
+    },
+    {
+      "id": "43",
+      "name": "Burger Tôm",
+      "price": 49,
+      "oldPrice": 55,
+      "image": "../src/assets/burger_shrimp_1.png",
+      "category": "burger"
+    },
+    {
+      "id": "44",
+      "name": "Burger LChicken",
+      "price": 52,
+      "oldPrice": 60,
+      "image": "../src/assets/burger_l_chicken.png",
+      "category": "burger"
+    },
+    {
+      "id": "45",
+      "name": "Burger Phô mai",
+      "price": 47,
+      "oldPrice": 55,
+      "image": "../src/assets/burger_cheese_10.png",
+      "category": "burger"
+    },
+    {
+      "id": "46",
+      "name": "Burger Bò Teriyaki",
+      "price": 35,
+      "oldPrice": 45,
+      "image": "../src/assets/burger_beef_teriyaki.png",
+      "category": "burger"
+    },
+    {
+      "id": "47",
+      "name": "Burger Double Double",
+      "price": 45,
+      "oldPrice": 53,
+      "image": "../src/assets/burger_double.png",
+      "category": "burger"
+    },
+    {
+      "id": "48",
+      "name": "Burger Mozzarella",
+      "price": 88,
+      "oldPrice": 100,
+      "image": "../src/assets/burger_mozzarella.png",
+      "category": "burger"
+    },
+    {
+      "id": "49",
+      "name": "Burger Cá",
+      "price": 40,
+      "oldPrice": 48,
+      "image": "../src/assets/burger_fish_5.png",
+      "category": "burger"
+    }
+  ],
+  "orders": [
+    {
+      "id": "d4db",
+      "userId": "d759",
+      "products": [
+        {
+          "productId": "44",
+          "quantity": 1,
+          "price": 52
+        }
+      ],
+      "totalPrice": 52,
+      "time": "02:29:00 18/03/2025",
+      "status": "Shipping"
+    }
+  ],
+  "Bills": [
+    {
+      "orderId": "f894",
+      "userId": "586f",
+      "products": [
+        {
+          "productId": "4",
+          "quantity": 1,
+          "price": 82
+        }
+      ],
+      "totalPrice": 82,
+      "time": "12:36:18 05/10/2024",
+      "status": "Shipped",
+      "id": "650f"
+    },
+    {
+      "orderId": "c060",
+      "userId": "586f",
+      "products": [
+        {
+          "productId": "1",
+          "quantity": 1,
+          "price": 87
+        }
+      ],
+      "totalPrice": 87,
+      "time": "12:37:05 05/10/2024",
+      "status": "Shipped",
+      "id": "0491"
+    },
+    {
+      "0": {
+        "orderId": "56bc",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "12:58:38 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "2161"
+    },
+    {
+      "0": {
+        "orderId": "470f",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "13",
+            "quantity": 1,
+            "price": 14
+          }
+        ],
+        "totalPrice": 14,
+        "time": "13:03:47 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "10d7"
+    },
+    {
+      "0": {
+        "orderId": "ce50",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "23",
+            "quantity": 1,
+            "price": 27
+          }
+        ],
+        "totalPrice": 27,
+        "time": "15:29:59 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "0a3f"
+    },
+    {
+      "orderId": "c28c",
+      "userId": "586f",
+      "products": [
+        {
+          "productId": "19",
+          "quantity": 1,
+          "price": 35
+        }
+      ],
+      "totalPrice": 35,
+      "time": "15:32:06 05/10/2024",
+      "status": "Shipped",
+      "id": "8eab"
+    },
+    {
+      "0": {
+        "orderId": "fde9",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "27",
+            "quantity": 1,
+            "price": 46
+          }
+        ],
+        "totalPrice": 46,
+        "time": "15:40:45 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "951a"
+    },
+    {
+      "orderId": "2af1",
+      "userId": "586f",
+      "products": [
+        {
+          "productId": "32",
+          "quantity": 1,
+          "price": 81
+        }
+      ],
+      "totalPrice": 81,
+      "time": "15:45:29 05/10/2024",
+      "status": "Shipped",
+      "id": "8149"
+    },
+    {
+      "0": {
+        "orderId": "adeb",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "46",
+            "quantity": 1,
+            "price": 35
+          }
+        ],
+        "totalPrice": 35,
+        "time": "15:51:38 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "117d"
+    },
+    {
+      "0": {
+        "orderId": "7eeb",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "26",
+            "quantity": 1,
+            "price": 46
+          }
+        ],
+        "totalPrice": 46,
+        "time": "15:56:46 05/10/2024",
+        "status": "Shipping"
+      },
+      "id": "a7fb"
+    },
+    {
+      "0": {
+        "orderId": "05f7",
+        "userId": "586f",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "20:12:13 13/10/2024",
+        "status": "Shipping"
+      },
+      "id": "3ebf"
+    }
+  ],
+  "Blogs": [
+    {
+      "id": "1",
+      "title": "THÁNG 9 GẶP LẠI NHAU - COMBO ƯU ĐÃI CHỈ TỪ 69KA",
+      "subtitle": "Bé vui tựu trường cùng vô vàn ưu đãi hấp dẫn từ Lotteria, tiết kiệm lên đến 41.000đ cho các combo siêu khủng ­dưới đây:",
+      "content": "1. Combo 69,000đ: Burger tôm + Gà miếng nuggets (3 miếng) + Kem ly + Pepsi cỡ vừa (giảm 33.000đ so với giá gốc)\n 2. Combo 69,000đ: Gà rán giòn ngon + Mì ý cỡ vừa + Kem ly + Pepsi cỡ vừa (giảm 26.000đ so với giá gốc)\n3. Combo 129,000đ: Gà rán giòn ngon + Burger bò Teriyaki + Mì ý cỡ vừa + Khoai tây chiên + 2 Pepsi cỡ vừa (giảm 41.000đ so với giá gốc)\nLưu ý: 2 Combo 69,000đ không áp dụng cho kênh giao hàng call center, web, app Lotteria, Grab food, Shopee food, Be food.\nChương trình áp dụng từ 01/09/2024 đến 30/09/2024.\nKhuyến mãi áp dụng tại cửa hàng Lotteria, nhanh nhanh đến các cửa hàng tận hưởng ưu đãi tháng này nha Fans iu ơi!",
+      "date": "2024-03-12",
+      "img": "../src/assets/nsp_thang_9_1070x750px-01.jpg"
+    },
+    {
+      "id": "2",
+      "title": "TẢI APP NHẬN QUÀ - ĂN NGON THẢ GA TẠI LOTTERIA",
+      "subtitle": "BẠN ORDER ĐƠN ĐẦU TIÊN TRÊN APP LOTTERIA, ĐỂ NHẬN NGAY 01 PHẦN KHOAI TÂY LẮC TUYẾT XANH MIỄN PHÍ NHÉ !!",
+      "content": "Chỉ cần tải app bạn sẽ nhận được ưu đãi khủng và đừng quên gửi đánh giá 5 sao cho trải nghiệm App của mình nhé.\nĐiều kiện áp dụng:\n- Chương trình áp dụng từ ngày 01/9 đến hết 31/10/2024\n-Chươngtrình áp dụng duy nhất cho đơn đầu tiên\n- Chỉ áp dụng đặt hàng qua App Lotteria\n- Chương trình áp dụng tại 1 số cửa hàng. Bạn có thể xem danh sách cửa hàng áp dụng 'ƯU ĐÃI' tặng Màn Thầu Chiên tại khu vực tìm kiếm cửa hàng bên dưới nhé",
+      "date": "2024-09-03",
+      "img": "../src/assets/tai_app_nhan_khoai_tay_1070x750px-01-01.jpg"
+    },
+    {
+      "id": "3",
+      "title": "SINH NHẬT THÊM BÁNH, BÉ YÊU THÊM VUI – GIÁ CHỈ TỪ 78K/BÉ",
+      "date": "2022-01-01",
+      "subtitle": "loremLaboris nulla consequat cillum cupidatat ut consequat aliquip exercitation duis ea laborum laboris ea. Minim dolor ex et ex laborum elit velit. ",
+      "content": "Lotteria chính thức hợp tác cùng TOUS les JOURS mang đến cho bé bữa tiệc sinh nhật hoành tráng với giá chỉ từ 78K cho các combo tiệc sau:\n- Loy party 78K: Gà rán + Khoai tây chiên (cỡ vừa) + Kem cây + Pepsi (cỡ vừa)\n- Lody party 78K: Burger Bulgogi/Burger Tôm + Phô mai que + Kem cây + Pepsi (cỡ vừa)\n- Lony party 97K: Gà rán + Mì ý + Khoai tây chiên (cỡ vừa) + Kem cây + Pepsi (cỡ vừa)\n- Loking party 123K: Gà rán + Mì ý thịt bò + Phô mai que + Kem ly + Pepsi (cỡ vừa)\n Tặng FREE cho bé các dịch vụ trang trí set up tiệc cùng biệt đội L4 với bong bóng lấp lánh siu đáng iu, miễn phí nón và thiệp sinh nhật cho các bé khi đặt tiệc tại Lotteria.\nNgoài ra, Ria Fans có thể trải nghiệm những chiếc bánh kem cực kì hấp dẫn đến từ thương hiệu bánh nổi tiếng TOUS les JOURS ngay tại Lotteria với mức giá KHÔNG THỂ HẤP DẪN HƠN:\n>> Unicorn Rainbow Fresh giá chỉ 450k\n>> Delighted Orange Fresh giá chỉ 430k\n>> Cookie Cheese Mousse giá chỉ 430k\n>> Teddy­­­­­ Bear - Party Time Cake giá chỉ 430k\nChương trình áp dụng tại các cửa hàng Lotteria khu vực Hà Nội, Hồ Chí Minh và Hải Phòng, nhanh nhanh đến các cửa hàng gần nhất hoặc gọi qua hotline 1900.6778 để được tư vấn hỗ trợ đặt tiệc cho các bé nha Fans iu ơi!\n#LotteriaVietnam #MyFAVORITELOTTERIA #tiecsinhnhat #LotteriaxTLJ",
+      "img": "../src/assets/tlj_1070x750px-01.jpg"
+    },
+    {
+      "id": "4",
+      "title": "BÁNH 'NÓNG' CHO MÙA ĐÔNG ẤM ÁP GIỮA TIẾT TRỜI LẠNH GIÁ",
+      "subtitle": "loremLaboris nulla consequat cillum cupidatat ut consequat aliquip exercitation duis ea laborum laboris ea. Minim dolor ex et ex laborum elit velit. ",
+      "content": "Lấy cảm hứng từ Bánh mì Pháp, kết hợp cùng những nguyên liệu đậm chất Châu Á,\n Nhà Gà mời bạn đến với chuyến giao thoa ẩm thực đầy thú vị khi thưởng thức\nBánh chiên - 'K-Croquette' với 2 sự lựa chọn:\nBánh Chiên Nhân Kim Chi với thịt heo cùng Kim chi cải thảo, hai vị chua-cay hoà quyện, đậm đà khó cưỡng\nBánh Chiên Nhân Xá xíu với thịt xá xíu đủ vị mặn-ngọt-nồng cùng nấm đông cô dai ngon, ăn rồi chỉ muốn ăn thêm…\nGiá dùng thử chỉ 39.000đ/cái\nCombo tiết kiệm: 1 Bánh chiên (Nhân Kim Chi/Xá Xíu) + Milkis/Micho Sparkling giá chỉ 55.000đ - lựa chọn hoàn hảo để bắt đầu một ngày mới\nBánh Chiên - 'K-Croquette'đã lên kệ tại Lotteria từ hôm nay 15/12/2023, cùng đến thưởng thức nhé các bạn ơi!\n#MyFAVORITELOTTERIA #LotteriaVietnam #Banhchien #Kimchi #Xaxiu",
+      "date": "2024-09-30",
+      "img": "../src/assets/zalo_oa_b_nh_chi_n2-01.jpg"
+    }
+  ],
+  "address": [
+    {
+      "id": "0274",
+      "addressName": "aàdsf",
+      "address": "ádfsdf",
+      "note": "ádfasd",
+      "isDefault": false,
+      "userId": "008e",
+      "email": "nguyenthehung.2004hd@gmail.com"
+    },
+    {
+      "id": "7593",
+      "addressName": "sfsd",
+      "address": "àd",
+      "note": "àdsf",
+      "isDefault": false,
+      "userId": "008e",
+      "email": "nguyenthehung.2004hd@gmail.com"
+    },
+    {
+      "id": "2948",
+      "addressName": "nhà",
+      "address": "Yên Nghĩa Hà Đông Hà Nội",
+      "note": "nothing",
+      "isDefault": true,
+      "userId": "008e",
+      "email": "nguyenthehung.2004hd@gmail.com"
+    },
+    {
+      "id": "3339",
+      "addressName": "Nhà riêng",
+      "address": "Phụng Thượng,Phúc Thọ,Hà Nội",
+      "note": "",
+      "isDefault": true,
+      "userId": "586f",
+      "email": "hongdang18092004@gmail.com"
+    },
+    {
+      "id": "ecd0",
+      "addressName": "Trường học",
+      "address": "Đại học Phenikaa",
+      "note": "",
+      "isDefault": false,
+      "userId": "586f",
+      "email": "hongdang18092004@gmail.com"
+    }
+  ],
+  "feedbacks": [],
+  "stores": [
+    {
+      "name": "Lotteria Trần Thái Tông",
+      "address": "101 Trần Thái Tông, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.031029,
+        "lng": 105.789824
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "d143"
+    },
+    {
+      "name": "Lotteria Hoàng Quốc Việt",
+      "address": "226 Hoàng Quốc Việt, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.047331,
+        "lng": 105.785
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "7d61"
+    },
+    {
+      "name": "Lotteria Nguyễn Khánh Toàn",
+      "address": "2A Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.033754,
+        "lng": 105.799499
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "83e8"
+    },
+    {
+      "name": "Lotteria Big C Thăng Long",
+      "address": "222 Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.016694,
+        "lng": 105.792937
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "c66a"
+    },
+    {
+      "name": "Lotteria Láng Hạ",
+      "address": "85 Láng Hạ, Đống Đa, Hà Nội",
+      "location": {
+        "lat": 21.017889,
+        "lng": 105.812101
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "ee3e"
+    },
+    {
+      "name": "Lotteria Vincom Bà Triệu",
+      "address": "191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+      "location": {
+        "lat": 21.011083,
+        "lng": 105.848359
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "bc0e"
+    },
+    {
+      "name": "Lotteria Times City",
+      "address": "458 Minh Khai, Hai Bà Trưng, Hà Nội",
+      "location": {
+        "lat": 20.993501,
+        "lng": 105.87056
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "8f68"
+    },
+    {
+      "name": "Lotteria Aeon Mall Long Biên",
+      "address": "27 Cổ Linh, Long Biên, Hà Nội",
+      "location": {
+        "lat": 21.028399,
+        "lng": 105.914933
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "034d"
+    },
+    {
+      "name": "Lotteria Hà Đông",
+      "address": "Tầng 5, TTTM Mê Linh Plaza Hà Đông, Tô Hiệu, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.959961,
+        "lng": 105.766713
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "24a7"
+    },
+    {
+      "name": "Lotteria Văn Quán",
+      "address": "60 Nguyễn Khuyến, Văn Quán, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.963222,
+        "lng": 105.771481
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5571"
+    },
+    {
+      "name": "Lotteria Hồ Gươm Plaza",
+      "address": "Tầng 1, Hồ Gươm Plaza, Trần Phú, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.975005,
+        "lng": 105.786738
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "0f7a"
+    },
+    {
+      "name": "Lotteria Nguyễn Huệ",
+      "address": "1 Nguyễn Huệ, Quận 1, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.773377,
+        "lng": 106.704095
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "9ee4"
+    },
+    {
+      "name": "Lotteria Lý Tự Trọng",
+      "address": "20 Lý Tự Trọng, Quận 1, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.776065,
+        "lng": 106.698243
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5ef7"
+    },
+    {
+      "name": "Lotteria Trần Hưng Đạo",
+      "address": "35 Trần Hưng Đạo, Quận 5, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.758643,
+        "lng": 106.67954
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "1d9e"
+    },
+    {
+      "name": "Lotteria Cộng Hòa",
+      "address": "230 Cộng Hòa, Tân Bình, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.801426,
+        "lng": 106.652878
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "711e"
+    },
+    {
+      "name": "Lotteria Phan Xích Long",
+      "address": "153 Phan Xích Long, Phú Nhuận,Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.800213,
+        "lng": 106.687713
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5161"
+    },
+    {
+      "name": "Lotteria Pearl Plaza",
+      "address": "561A Điện Biên Phủ, Bình Thạnh, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.803973,
+        "lng": 106.72102
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "1ef3"
+    },
+    {
+      "name": "Lotteria Aeon Mall Tân Phú",
+      "address": "30 Bờ Bao Tân Thắng, Tân Phú, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.80599,
+        "lng": 106.624613
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "764d"
+    }
+  ]
+}
