@@ -13,9 +13,7 @@ const NavBar = () => {
   const [visible, setVisible] = useState(false);
   const [activePage, setActivePage] = useState("");
   const [showSubMenu, setShowSubMenu] = useState(false);
-<<<<<<< HEAD
-  const { navigate, getQuantity, showSearch, setShowSearch } = useContext(ShopContext);
-=======
+
   const { navigate, getQuantity, showSearch, setShowSearch } =
     useContext(ShopContext);
 
@@ -31,7 +29,6 @@ const NavBar = () => {
       setUserInfo(savedInfo);
     }
   }, []);
->>>>>>> 8012a88 (Initial commit)
 
   const handleSearchBarClick = () => {
     setShowSearch(true);
@@ -42,14 +39,13 @@ const NavBar = () => {
     setVisible(false);
   };
 
-<<<<<<< HEAD
-=======
+
   const handleLogout = () => {
     // Xử lý đăng xuất
     localStorage.removeItem("isLoggedIn");
     navigate("/login");
   };
->>>>>>> 8012a88 (Initial commit)
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -83,11 +79,9 @@ const NavBar = () => {
             <Nav className="me-auto d-none d-md-block d-md-flex">
               <NavLink
                 to="/bestSeller"
-<<<<<<< HEAD
-                 onClick={() => handleClick("bestSeller")}
-=======
+
                 onClick={() => handleClick("bestSeller")}
->>>>>>> 8012a88 (Initial commit)
+
                 className={`text-decoration-none fw-bold d-flex flex-column align-items-center ${
                   activePage === "bestSeller"
                     ? "text-danger underline"
@@ -119,17 +113,12 @@ const NavBar = () => {
                 <p className="text-uppercase fs-5 px-2">Khuyến mãi</p>
               </NavLink>
               <NavLink
-<<<<<<< HEAD
-                to="/parent"
-                onClick={() => handleClick("parent")}
-                className={`text-decoration-none fw-bold d-flex flex-column align-items-center ${
-                  activePage === "parent"
-=======
+
                 to="/Parent"
                 onClick={() => handleClick("Parent")}
                 className={`text-decoration-none fw-bold d-flex flex-column align-items-center ${
                   activePage === "store"
->>>>>>> 8012a88 (Initial commit)
+
                     ? "text-danger underline"
                     : "text-black"
                 }`}
@@ -171,8 +160,7 @@ const NavBar = () => {
               className="position-relative menu-icon d-flex shadow-lg border rounded-circle"
               style={{ cursor: "pointer" }}
             >
-<<<<<<< HEAD
-=======
+
               <Image
                 src={userInfo.photoURL} // Sử dụng ảnh đại diện người dùng
                 width={"33px"}
@@ -181,7 +169,7 @@ const NavBar = () => {
                 alt="User Avatar" // Thêm thuộc tính alt
                 style={{ border: "1px solid lightgray", borderRadius: "50%" }}
               />
->>>>>>> 8012a88 (Initial commit)
+
               <div
                 className={`position-absolute mt-4 rounded-3 shadow-lg p-3 end-0 bg-white ${
                   showSubMenu ? "d-block" : "d-none"
@@ -220,11 +208,9 @@ const NavBar = () => {
                   className="text-black fs-5"
                   onClick={() => {
                     window.open(
-<<<<<<< HEAD
-                      "",
-=======
+
                       "https://www.facebook.com/messages/t/8426391594066578",
->>>>>>> 8012a88 (Initial commit)
+
                       "_blank",
                       "noopener noreferrer"
                     );
@@ -237,13 +223,12 @@ const NavBar = () => {
                 </p>
                 <p
                   className="text-black fs-5"
-<<<<<<< HEAD
-=======
+
                   onClick={() => {
                     handleLogout(); // Đăng xuất
                     setShowSubMenu(false);
                   }}
->>>>>>> 8012a88 (Initial commit)
+
                 >
                   <Icon.BoxArrowInLeft className="me-2"></Icon.BoxArrowInLeft>
                   Đăng xuất

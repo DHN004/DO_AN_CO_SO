@@ -1,12 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-<<<<<<< HEAD
-import "react-toastify/dist/ReactToastify.css";
-import Toastify from "react-toastify";
-=======
 import { toast } from "react-toastify";
->>>>>>> 8012a88 (Initial commit)
 import emailjs from "@emailjs/browser";
 
 export const ShopContext = createContext();
@@ -14,29 +9,17 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
   const navigate = useNavigate();
   const currency = "₫";
-<<<<<<< HEAD
+
   const foodApi = "http://localhost:5000/Foods";
   const ordersAPI = "http://localhost:5000/orders";
   const billAPI = "http://localhost:5000/Bills";
+  const userAPI = "http://localhost:5000/UsersAccount";
   const [products, setProducts] = useState([]);
   const [orders, setOrders] = useState([]);
   const [cart, setCart] = useState({});
   const [blogs, setBlogs] = useState([]);
-  const [search, setSearch] = useState("");
-
-=======
-  const foodApi = "http://localhost:5173/Foods";
-  const ordersAPI = "http://localhost:5173/orders";
-  const billAPI = "http://localhost:5173/Bills";
-  const userAPI = "http://localhost:5173/UsersAccount";
-  const [products, setProducts] = useState([]);
-  const [users, setUsers] = useState([]);
-  const [orders, setOrders] = useState([]);
-  const [cart, setCart] = useState({});
-  const [blogs, setBlogs] = useState([]);
-  //lấy địa chỉ
   const [addresses, setAddresses] = useState([]);
-  const addressAPI = "http://localhost:5173/address"; // Đường dẫn tới db.json
+  const addressAPI = "http://localhost:5000/address"; // Đường dẫn tới db.json
   useEffect(() => {
     // Fetch danh sách địa chỉ từ db.json
     const fetchAddresses = async () => {
@@ -47,7 +30,7 @@ const ShopContextProvider = (props) => {
     fetchAddresses();
   }, []);
   const [search, setSearch] = useState("");
->>>>>>> 8012a88 (Initial commit)
+  
   const [showSearch, setShowSearch] = useState(false);
   const responsive = {
     superLargeDesktop: {
@@ -67,11 +50,7 @@ const ShopContextProvider = (props) => {
       items: 4,
     },
   };
-<<<<<<< HEAD
-  useEffect(() => {
-    axios
-      .get("http://localhost:5000/Blogs")
-=======
+
 
   //user hiện tại
   const [currentUser, setCurrentUser] = useState(null);
@@ -100,17 +79,16 @@ const ShopContextProvider = (props) => {
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:5173/Blogs")
->>>>>>> 8012a88 (Initial commit)
+      .get("http://localhost:5000/Blogs")
+
       .then((response) => setBlogs(response.data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   useEffect(() => {
-<<<<<<< HEAD
+
     console.log(products);
-=======
->>>>>>> 8012a88 (Initial commit)
+
     axios
       .get(foodApi)
       .then((response) => {
@@ -415,13 +393,10 @@ const ShopContextProvider = (props) => {
     ordersAPI,
     billAPI,
     blogs,
-<<<<<<< HEAD
-
-=======
     users,
     currentUser,
     addresses,
->>>>>>> 8012a88 (Initial commit)
+
   };
   return (
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
