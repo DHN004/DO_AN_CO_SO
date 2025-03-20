@@ -12,13 +12,15 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBA7g0-uOGV5mT03m2VoVTSl0k31I_Nv-k",
-  authDomain: "main-lotteria.firebaseapp.com",
-  projectId: "main-lotteria",
-  storageBucket: "main-lotteria.appspot.com",
-  messagingSenderId: "843291859877",
-  appId: "1:843291859877:web:b1d876fab7a407be7c664c",
-  measurementId: "G-SF0TLCJTV3",
+
+  apiKey: "AIzaSyCENlylMuBWNNnMibrCtWJ2ksarlPsuQRs",
+  authDomain: "loteria-737dd.firebaseapp.com",
+  projectId: "loteria-737dd",
+  storageBucket: "loteria-737dd.firebasestorage.app",
+  messagingSenderId: "480496897667",
+  appId: "1:480496897667:web:6ab0fe1e87607584cc95b6",
+  measurementId: "G-EW2JV7S728",
+
 };
 
 // Initialize Firebase
