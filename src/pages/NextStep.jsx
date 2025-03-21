@@ -59,9 +59,9 @@ const NextStep = () => {
   };
 
   const sendEmail = () => {
-    const serviceId = 'service_idcd6zm';
-    const templateId = 'template_egye8bc';
-    const publicKey = 'Wx1yXJrCO16ReBb_M';
+    const serviceId = 'service_wsy7foc';
+    const templateId = 'template_izjla3k';
+    const publicKey = 'ySTtdygj5rB6uD3Vv';
   
     // Ensure currentUser is defined and has necessary properties
     if (!userInfo || !userInfo.fullName || !userInfo.email) {
@@ -70,8 +70,8 @@ const NextStep = () => {
     }
   
     const template_params = {
-      from_name: 'LoteriaLoteria',
-      from_email: '',
+      from_name: 'Lotteriaa',
+      from_email: 'dangngoc28082004@gmail.com',
       to_name: userInfo.fullName,
       to_email: userInfo.email,
       message: 'Đơn hàng của quý khách đã được xác nhận, chúc quý khách một bữa ăn vui vẻ !!!'
@@ -215,7 +215,7 @@ const NextStep = () => {
                         <div className="d-flex gap-3">
                           <div>
                             <img
-                              src={matchingProduct.image}
+                              src={require(`../assets/${matchingProduct.image.split('/').pop()}`)}
                               width={"100px"}
                               height={"100px"}
                               alt="Money Icon"
@@ -275,7 +275,7 @@ const NextStep = () => {
                       <p className="fs-5 text-black fw-bold">
                         Xin vui lòng cảm ơn!{" "}
                       </p>
-                      <img src={assets.qrbank} width={200} />
+                      <img src={assets.qr_code} width={200} />
                     </div>
                   </div>
                 )}

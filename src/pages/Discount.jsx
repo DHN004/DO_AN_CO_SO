@@ -20,7 +20,7 @@ const Discount = () => {
                 id={blog.id}
                 title={blog.title}
                 date={blog.date}
-                image={assets[blog.image]} 
+                image={assets[blogs.image]} 
               />
             ))}
           </Col>

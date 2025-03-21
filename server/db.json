@@ -366,22 +366,7 @@
       "category": "burger"
     }
   ],
-  "orders": [
-    {
-      "id": "d4db",
-      "userId": "d759",
-      "products": [
-        {
-          "productId": "44",
-          "quantity": 1,
-          "price": 52
-        }
-      ],
-      "totalPrice": 52,
-      "time": "02:29:00 18/03/2025",
-      "status": "Shipping"
-    }
-  ],
+  "orders": [],
   "Bills": [
     {
       "orderId": "f894",
@@ -561,12 +546,220 @@
         "status": "Shipping"
       },
       "id": "3ebf"
+    },
+    {
+      "0": {
+        "orderId": "d4db",
+        "userId": "d759",
+        "products": [
+          {
+            "productId": "44",
+            "quantity": 1,
+            "totalMoney": 52,
+            "price": 52
+          }
+        ],
+        "totalPrice": 67,
+        "time": "02:29:00 18/03/2025",
+        "status": "Shipping"
+      },
+      "1": {
+        "orderId": "4ecd",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "2",
+            "quantity": 1,
+            "price": 95
+          }
+        ],
+        "totalPrice": 95,
+        "time": "23:40:45 18/03/2025",
+        "status": "Shipping"
+      },
+      "id": "21a0"
+    },
+    {
+      "0": {
+        "orderId": "cc0b",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "23:52:57 18/03/2025",
+        "status": "Shipping"
+      },
+      "id": "5fd0"
+    },
+    {
+      "0": {
+        "orderId": "1732",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "6",
+            "quantity": 1,
+            "price": 145
+          }
+        ],
+        "totalPrice": 145,
+        "time": "23:54:59 18/03/2025",
+        "status": "Shipping"
+      },
+      "id": "8a46"
+    },
+    {
+      "0": {
+        "orderId": "cb3a",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "00:05:48 19/03/2025",
+        "status": "Shipping"
+      },
+      "id": "68fb"
+    },
+    {
+      "0": {
+        "orderId": "cd93",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "00:07:06 19/03/2025",
+        "status": "Shipping"
+      },
+      "id": "9902"
+    },
+    {
+      "0": {
+        "orderId": "3acd",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "totalMoney": 87,
+            "price": 87
+          }
+        ],
+        "totalPrice": 102,
+        "time": "00:07:35 19/03/2025",
+        "status": "Shipping"
+      },
+      "id": "2083"
+    },
+    {
+      "0": {
+        "orderId": "3317",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "2",
+            "quantity": 1,
+            "price": 95
+          }
+        ],
+        "totalPrice": 95,
+        "time": "00:20:25 19/03/2025",
+        "status": "Shipping"
+      },
+      "id": "41b0"
+    },
+    {
+      "0": {
+        "orderId": "2c45",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "6",
+            "quantity": 1,
+            "price": 145
+          }
+        ],
+        "totalPrice": 145,
+        "time": "21:25:02 20/03/2025",
+        "status": "Shipping"
+      },
+      "id": "0383"
+    },
+    {
+      "0": {
+        "orderId": "0be3",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "6",
+            "quantity": 1,
+            "price": 145
+          }
+        ],
+        "totalPrice": 145,
+        "time": "21:25:22 20/03/2025",
+        "status": "Shipping"
+      },
+      "id": "9d3f"
+    },
+    {
+      "0": {
+        "orderId": "f493",
+        "userId": "b621",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 1,
+            "price": 87
+          }
+        ],
+        "totalPrice": 87,
+        "time": "22:22:54 21/03/2025",
+        "status": "Shipping"
+      },
+      "id": "ce20"
+    },
+    {
+      "0": {
+        "orderId": "8d3d",
+        "userId": "9ac5",
+        "products": [
+          {
+            "productId": "5",
+            "quantity": 1,
+            "price": 145
+          },
+          {
+            "productId": "12",
+            "quantity": 1,
+            "price": 1
+          }
+        ],
+        "totalPrice": 146,
+        "time": "22:25:28 21/03/2025",
+        "status": "Shipping"
+      },
+      "id": "ae0d"
     }
   ],
   "Blogs": [
     {
       "id": "1",
-      "title": "THÁNG 9 GẶP LẠI NHAU - COMBO ƯU ĐÃI CHỈ TỪ 69KA",
+      "title": "THÁNG 2 GẶP LẠI NHAU - COMBO ƯU ĐÃI CHỈ TỪ 69KA",
       "subtitle": "Bé vui tựu trường cùng vô vàn ưu đãi hấp dẫn từ Lotteria, tiết kiệm lên đến 41.000đ cho các combo siêu khủng ­dưới đây:",
       "content": "1. Combo 69,000đ: Burger tôm + Gà miếng nuggets (3 miếng) + Kem ly + Pepsi cỡ vừa (giảm 33.000đ so với giá gốc)\n 2. Combo 69,000đ: Gà rán giòn ngon + Mì ý cỡ vừa + Kem ly + Pepsi cỡ vừa (giảm 26.000đ so với giá gốc)\n3. Combo 129,000đ: Gà rán giòn ngon + Burger bò Teriyaki + Mì ý cỡ vừa + Khoai tây chiên + 2 Pepsi cỡ vừa (giảm 41.000đ so với giá gốc)\nLưu ý: 2 Combo 69,000đ không áp dụng cho kênh giao hàng call center, web, app Lotteria, Grab food, Shopee food, Be food.\nChương trình áp dụng từ 01/09/2024 đến 30/09/2024.\nKhuyến mãi áp dụng tại cửa hàng Lotteria, nhanh nhanh đến các cửa hàng tận hưởng ưu đãi tháng này nha Fans iu ơi!",
       "date": "2024-03-12",
@@ -578,7 +771,7 @@
       "subtitle": "BẠN ORDER ĐƠN ĐẦU TIÊN TRÊN APP LOTTERIA, ĐỂ NHẬN NGAY 01 PHẦN KHOAI TÂY LẮC TUYẾT XANH MIỄN PHÍ NHÉ !!",
       "content": "Chỉ cần tải app bạn sẽ nhận được ưu đãi khủng và đừng quên gửi đánh giá 5 sao cho trải nghiệm App của mình nhé.\nĐiều kiện áp dụng:\n- Chương trình áp dụng từ ngày 01/9 đến hết 31/10/2024\n-Chươngtrình áp dụng duy nhất cho đơn đầu tiên\n- Chỉ áp dụng đặt hàng qua App Lotteria\n- Chương trình áp dụng tại 1 số cửa hàng. Bạn có thể xem danh sách cửa hàng áp dụng 'ƯU ĐÃI' tặng Màn Thầu Chiên tại khu vực tìm kiếm cửa hàng bên dưới nhé",
       "date": "2024-09-03",
-      "img": "../src/assets/tai_app_nhan_khoai_tay_1070x750px-01-01.jpg"
+      "img": "../src/assets/tai_app_nhan_khoai_tay.jpg"
     },
     {
       "id": "3",
@@ -597,8 +790,17 @@
       "img": "../src/assets/zalo_oa_b_nh_chi_n2-01.jpg"
     }
   ],
-
-  "address": [],
+  "address": [
+    {
+      "id": "f9bb",
+      "addressName": "rhh",
+      "address": "rg",
+      "note": "fghgh",
+      "isDefault": true,
+      "userId": "9ac5",
+      "email": "dangngoc28082004@gmail.com"
+    }
+  ],
   "feedbacks": [],
   "users": [
     {
@@ -614,6 +816,12 @@
       "fullName": "haikhac2312",
       "email": "haikhac2312@gmail.com",
       "photoURL": ""
+    },
+    {
+      "id": "9ac5",
+      "fullName": "Ngọc Hồng",
+      "email": "dangngoc28082004@gmail.com",
+      "photoURL": "https://lh3.googleusercontent.com/a/ACg8ocIYEQ2HLbTC8bWDJbxQWUdLVUgQIh2j1lhD5Tso47wbQmxrBA=s96-c"
     }
   ],
   "UsersAccount": [
@@ -655,118 +863,203 @@
     }
   ],
   "stores": [
-    [
-      {
-        "name": "Lotteria Trần Thái Tông",
-        "address": "101 Trần Thái Tông, Cầu Giấy, Hà Nội",
-        "location": {
-          "lat": 21.031029,
-          "lng": 105.789824
-        },
-        "openingHours": "08:00",
-        "closingHours": "22:00",
-        "id": "d143"
+    {
+      "name": "Lotteria Trần Thái Tông",
+      "address": "101 Trần Thái Tông, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.031029,
+        "lng": 105.789824
       },
-      {
-        "name": "Lotteria Nguyễn Chí Thanh",
-        "address": "54 Nguyễn Chí Thanh, Đống Đa, Hà Nội",
-        "location": {
-          "lat": 21.025406,
-          "lng": 105.811925
-        },
-        "openingHours": "07:30",
-        "closingHours": "22:30",
-        "id": "d144"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "d143"
+    },
+    {
+      "name": "Lotteria Hoàng Quốc Việt",
+      "address": "226 Hoàng Quốc Việt, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.047331,
+        "lng": 105.785
       },
-      {
-        "name": "Lotteria Royal City",
-        "address": "72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
-        "location": {
-          "lat": 20.99398,
-          "lng": 105.817359
-        },
-        "openingHours": "08:00",
-        "closingHours": "23:00",
-        "id": "d145"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "7d61"
+    },
+    {
+      "name": "Lotteria Nguyễn Khánh Toàn",
+      "address": "2A Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.033754,
+        "lng": 105.799499
       },
-      {
-        "name": "Lotteria Láng Hạ",
-        "address": "36 Láng Hạ, Đống Đa, Hà Nội",
-        "location": {
-          "lat": 21.016678,
-          "lng": 105.812248
-        },
-        "openingHours": "07:00",
-        "closingHours": "22:00",
-        "id": "d146"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "83e8"
+    },
+    {
+      "name": "Lotteria Big C Thăng Long",
+      "address": "222 Trần Duy Hưng, Cầu Giấy, Hà Nội",
+      "location": {
+        "lat": 21.016694,
+        "lng": 105.792937
       },
-      {
-        "name": "Lotteria Vincom Bà Triệu",
-        "address": "191 Bà Triệu, Hai Bà Trưng, Hà Nội",
-        "location": {
-          "lat": 21.015118,
-          "lng": 105.849657
-        },
-        "openingHours": "08:00",
-        "closingHours": "22:30",
-        "id": "d147"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "c66a"
+    },
+    {
+      "name": "Lotteria Láng Hạ",
+      "address": "85 Láng Hạ, Đống Đa, Hà Nội",
+      "location": {
+        "lat": 21.017889,
+        "lng": 105.812101
       },
-      {
-        "name": "Lotteria Nguyễn Văn Cừ",
-        "address": "99 Nguyễn Văn Cừ, Long Biên, Hà Nội",
-        "location": {
-          "lat": 21.042915,
-          "lng": 105.877771
-        },
-        "openingHours": "08:00",
-        "closingHours": "22:00",
-        "id": "d148"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "ee3e"
+    },
+    {
+      "name": "Lotteria Vincom Bà Triệu",
+      "address": "191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+      "location": {
+        "lat": 21.011083,
+        "lng": 105.848359
       },
-      {
-        "name": "Lotteria Phan Xích Long",
-        "address": "217 Phan Xích Long, Phú Nhuận, TP.HCM",
-        "location": {
-          "lat": 10.801118,
-          "lng": 106.690627
-        },
-        "openingHours": "07:30",
-        "closingHours": "23:00",
-        "id": "d149"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "bc0e"
+    },
+    {
+      "name": "Lotteria Times City",
+      "address": "458 Minh Khai, Hai Bà Trưng, Hà Nội",
+      "location": {
+        "lat": 20.993501,
+        "lng": 105.87056
       },
-      {
-        "name": "Lotteria Nguyễn Thị Minh Khai",
-        "address": "225 Nguyễn Thị Minh Khai, Quận 1, TP.HCM",
-        "location": {
-          "lat": 10.770987,
-          "lng": 106.682999
-        },
-        "openingHours": "08:00",
-        "closingHours": "22:30",
-        "id": "d150"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "8f68"
+    },
+    {
+      "name": "Lotteria Aeon Mall Long Biên",
+      "address": "27 Cổ Linh, Long Biên, Hà Nội",
+      "location": {
+        "lat": 21.028399,
+        "lng": 105.914933
       },
-      {
-        "name": "Lotteria Crescent Mall",
-        "address": "101 Tôn Dật Tiên, Quận 7, TP.HCM",
-        "location": {
-          "lat": 10.726906,
-          "lng": 106.71998
-        },
-        "openingHours": "09:00",
-        "closingHours": "22:00",
-        "id": "d151"
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "034d"
+    },
+    {
+      "name": "Lotteria Hà Đông",
+      "address": "Tầng 5, TTTM Mê Linh Plaza Hà Đông, Tô Hiệu, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.959961,
+        "lng": 105.766713
       },
-      {
-        "name": "Lotteria Quang Trung",
-        "address": "620 Quang Trung, Gò Vấp, TP.HCM",
-        "location": {
-          "lat": 10.835935,
-          "lng": 106.666451
-        },
-        "openingHours": "07:00",
-        "closingHours": "23:00",
-        "id": "d152"
-      }
-    ]
-
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "24a7"
+    },
+    {
+      "name": "Lotteria Văn Quán",
+      "address": "60 Nguyễn Khuyến, Văn Quán, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.963222,
+        "lng": 105.771481
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5571"
+    },
+    {
+      "name": "Lotteria Hồ Gươm Plaza",
+      "address": "Tầng 1, Hồ Gươm Plaza, Trần Phú, Hà Đông, Hà Nội",
+      "location": {
+        "lat": 20.975005,
+        "lng": 105.786738
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "0f7a"
+    },
+    {
+      "name": "Lotteria Nguyễn Huệ",
+      "address": "1 Nguyễn Huệ, Quận 1, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.773377,
+        "lng": 106.704095
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "9ee4"
+    },
+    {
+      "name": "Lotteria Lý Tự Trọng",
+      "address": "20 Lý Tự Trọng, Quận 1, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.776065,
+        "lng": 106.698243
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5ef7"
+    },
+    {
+      "name": "Lotteria Trần Hưng Đạo",
+      "address": "35 Trần Hưng Đạo, Quận 5, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.758643,
+        "lng": 106.67954
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "1d9e"
+    },
+    {
+      "name": "Lotteria Cộng Hòa",
+      "address": "230 Cộng Hòa, Tân Bình, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.801426,
+        "lng": 106.652878
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "711e"
+    },
+    {
+      "name": "Lotteria Phan Xích Long",
+      "address": "153 Phan Xích Long, Phú Nhuận,Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.800213,
+        "lng": 106.687713
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "5161"
+    },
+    {
+      "name": "Lotteria Pearl Plaza",
+      "address": "561A Điện Biên Phủ, Bình Thạnh, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.803973,
+        "lng": 106.72102
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "1ef3"
+    },
+    {
+      "name": "Lotteria Aeon Mall Tân Phú",
+      "address": "30 Bờ Bao Tân Thắng, Tân Phú, Thành Phố Hồ Chí Minh",
+      "location": {
+        "lat": 10.80599,
+        "lng": 106.624613
+      },
+      "openingHours": "08:00",
+      "closingHours": "22:00",
+      "id": "764d"
+    }
   ]
 }

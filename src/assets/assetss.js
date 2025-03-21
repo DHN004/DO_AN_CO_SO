@@ -44,7 +44,7 @@ import menu_menu_copy_4 from './menu_menu_copy_4_.jpg'
 import pack_lody_set_4 from './pack_lody_set_4.png'
 import pack_loking_set_2 from './pack_loking_set_2_.png'
 import pack_lony_set_2 from './pack_lony_set_2_.png'
-import pack_loy_set_2 from './pack_loy_set_2_.png'
+import pack_loy_set_2 from './pack_loy_set_2.png'
 import value_bulgogi_4 from './value_bulgogi_4.png'
 import value_cheese_4 from './value_cheese_4.png'
 import value_l_chicken from './value_l_chicken.png'
@@ -69,12 +69,11 @@ import menu_dat_hang_khuyen_mai from './MENU_DAT_HANG_KHUYE_N_MA_I.jpg'
 import menu_dat_hang_phan_nhom from './MENU_DAT_HANG_PHA_N_A_N_NHO_M.jpg'
 import menu_dat_hang_thuc_an_nhe from './MENU_DAT_HANG_THU_C_A_N_NHE.jpg'
 import menu_dat_hang_thuc_uong from './MENU_DAT_HANG_THU_C_UO_NG.jpg'
-import menu_dat_hang_value from './MENU_DAT_HANG_VALUE.jpg';
+import menu_dat_hang_value from './MENU_DAT_HANG_VALUE.jpg'
 import error from './comic-lettering-oops-comic-speech-bubble-with-emotional-text-oops-bright-dynamic-cartoon-illustration-in-retro-pop-art-style-comic-text-sound-effects-png.webp'
-import qrcode from "./qrcode.png"
-import qrbank from "./qrbank.jpg"
+import qr_code from './qr_code.jpg'
 import septemberDiscount from './nsp_thang_9_1070x750px-01.jpg'
-import downloadApp from './tai_app_nhan_khoai_tay_1070x750px-01-01.jpg'
+import downloadApp from './tai_app_nhan_khoai_tay.jpg'
 import birthday from './tlj_1070x750px-01.jpg'
 import hotCake from './zalo_oa_b_nh_chi_n2-01.jpg'
 export const assets = {
@@ -82,8 +81,7 @@ export const assets = {
     downloadApp,
     birthday,
     hotCake,
-    qrbank,
-    qrcode,
+    qr_code,
     error,
     menu_dat_hang_bestSeller,
     menu_dat_hang_burger,

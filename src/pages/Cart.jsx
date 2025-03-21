@@ -3,6 +3,7 @@ import { ShopContext } from "../Context/ShopContext";
 import { Col, Container, Row } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import { toast } from "react-toastify";
+import { assets } from "../assets/assetss";
 import Footer from "../components/Footer/Footer";
 import PolicyFooter from "../components/Policy_Footer/PolicyFooter";
 import RelatedProduct from "../components/RelatedProduct/RelatedProduct";
@@ -43,6 +44,7 @@ const Cart = () => {
   const [subtotal, setSubtotal] = useState(0); // Subtotal for orders
   const [serviceCost, setServiceCost] = useState(0); // Cost of selected services
   const [totalPrice, setTotalPrice] = useState(0); // Total cost (subtotal + services)
+
 
   useEffect(() => {
     // Calculate subtotal for all products in orders
@@ -118,7 +120,7 @@ const Cart = () => {
   };
 
   return (
-    <div style={{ marginTop: "850px" }}>
+    <div style={{ marginTop: "100px" }}>
       <Container>
         {/*Render products*/}
         <Row className="d-flex justify-content-between flex-sm-row flex-column">
@@ -165,7 +167,7 @@ const Cart = () => {
                                   {/* Hiển thị ảnh tiền nếu tìm thấy sản phẩm trùng id */}
                                   {matchingProduct ? (
                                     <img
-                                      src={matchingProduct.image}
+                                      src={assets[matchingProduct.image.replace("../src/assets/", "").replace(".png", "")]}
                                       width={"100px"}
                                       height={"100px"}
                                       alt="Money Icon"

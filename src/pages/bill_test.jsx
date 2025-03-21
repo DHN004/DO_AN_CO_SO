@@ -6,7 +6,7 @@ const Bill = () => {
     const [bill, setBill] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:3000/Bills")
+        axios.get("http://localhost:5000/Bills")
         .then(res => setBill(res.data))
         .catch(err => console.log(err))
     }, [])

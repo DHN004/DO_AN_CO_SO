@@ -55,7 +55,7 @@ const SpecialProduct = () => {
                                     height: '300px',
                                     objectFit: 'cover',
                                     padding: '10px'
-                                }} src={item.image} />
+                                }} src={assets[item.image.replace("../src/assets/", "").replace(".png", "")]} />
                                 <h2 className='text-center bg-transparent fs-2'>{item.name}</h2>
                                 <div className='d-flex justify-content-around'>
                                     <p className='text-danger fs-3 fw-bold'>{item.price}.000{currency}</p>

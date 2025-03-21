@@ -18,6 +18,7 @@ const ShopContextProvider = (props) => {
   const [orders, setOrders] = useState([]);
   const [cart, setCart] = useState({});
   const [blogs, setBlogs] = useState([]);
+  const [users, setUsers] = useState([]);
   const [addresses, setAddresses] = useState([]);
   const addressAPI = "http://localhost:5000/address"; // Đường dẫn tới db.json
   useEffect(() => {
