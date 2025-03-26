@@ -71,7 +71,7 @@ const NextStep = () => {
   
     const template_params = {
       from_name: 'Lotteriaa',
-      from_email: 'dangngoc28082004@gmail.com',
+      from_email: '',
       to_name: userInfo.fullName,
       to_email: userInfo.email,
       message: 'Đơn hàng của quý khách đã được xác nhận, chúc quý khách một bữa ăn vui vẻ !!!'
